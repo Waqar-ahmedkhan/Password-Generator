@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="password-generator">
+        <h1 class="heading">Password Generator</h1>
+        <div class="password-input">
+          <input
+            type="password"
+            placeholder="your password "
+            readonly
+            class="input"
+          />
+          <button><i>icon</i></button>
+        </div>
+
+        <div class="password-info">
+          <div class="length">
+            <p class="">password length</p>
+            <span class="">10 </span>
+          </div>
+          <input type="range" class="range" minlength="10" maxlength="20" />
+
+          <div class="boxes">
+            <div class="checkbox">
+              <input type="checkbox" id="upperCase" />
+              <label for="upperCase">include upperCase letters</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="lowerCase" />
+              <label for="lowerCase">include lowerCase letters</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="numbers" />
+              <label for="numbers">include numbers</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" id="symbols" />
+              <label for="symbols">include symbols</label>
+            </div>
+
+            <div class="">
+              <p class="">Strengh</p>
+              <div class=""></div>
+            </div>
+
+            <button class="" id="button-container">Generator Password</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

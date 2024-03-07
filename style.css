@@ -1,0 +1,94 @@
+body{
+    color: #cbcbcb;
+     background: black;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.password-generator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.heading {
+    margin-top: 3rem;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.password-input {
+    background: #343434;
+    padding: 2rem 5rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.input {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    background: #111010;
+    width: 18rem;
+    border: 3px #343434 solid;
+    border-radius: 10px;
+   
+
+}
+
+.password-info {
+    background: #343434;
+    padding: 3rem 6rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.length {
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.length p {
+    gap: 30px;
+}
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 1px 1px 1px #000000;
+    border: 1px solid #000000;
+    height: 30px;
+    width: 15px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #3071A9;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #3071A9;
+  }
+
+
+
+
+
+
+#button-container {
+    background: #80eda7;
+    height: 50px;
+    border-radius: 2px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
